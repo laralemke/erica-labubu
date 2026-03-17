@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: red;
+    width:100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /* wrap- as caixinhas quebram de linha quando chegam no final do container, seguindo seu tamanho normal. "nowrap" faz as caixinhas se expremerem*/
+
+    /*flex-flow: row wrap; /*equivale ao flex direction + flex wrap, ou usa os dois ou esse*/
+
+    justify-content: space-evenly; /* alinha para 
+    esquerda-direita*/
+    
+    /*align-items: center;*/
+    align-content:space-evenly;  /*alinha para cima-baixo*/
+
+
+}
+
+.c1, .c2, .c3 {
+    width: 200px;
+    height: 50px;
+}
+
+
+.c1 {
+    background-color: yellow;
+}
+.c2 {
+    background-color: rgb(74, 192, 247);
+}
+.c3 {
+    background-color: rgb(243, 111, 155);
+}
+

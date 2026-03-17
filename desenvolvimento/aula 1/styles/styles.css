@@ -1,0 +1,22 @@
+body {
+    height: 2000px;
+}
+
+header, main, footer {
+    background-color: orange;
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+.ErenYeager {
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+.hannibal {
+    background-color: crimson;
+    color:rgb(44, 10, 10);
+    font-size:100px ;
+}
